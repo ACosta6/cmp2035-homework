@@ -1,25 +1,35 @@
+@font-face{
+    font-family: ;
+    src: url();
+    
+}
 body {
-    font-family: verdana;
-    color: darkblue;
-    font-size: 12px;
-    background-color: floralwhite;
-   
+    font-family: 'Lato', sans-serif;
+    color: #eeeeee;
+    font-size: 1em;
+    background-color: #5a3f58;
+
 }
 
 blockquote {
-    font-family: helvetica;
-    color: cadetblue;
-    font-size: 20px;
+    font-family: 'Sanchez', serif;
+    color: #000000;
+    font-size: 2em;
     border: 4px solid lightpink;
 }
 
 a:link {
     color: lightpink;
-    text-decoration: line-through;
+    font-family: 'Sanchez', serif;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 a:hover {
     color: deeppink;
     font-weight: bold;
+    font-size: 1em;
+    text-transform: lowercase;
 }
 a:active {
     color: coral;
@@ -28,32 +38,43 @@ a:active {
 a:visited {
     color: aquamarine ;
 }
- .table1 {
+.table1 {
     border: 4px solid cadetblue ;
 }
 .namework {
-    font-family: cursive;
+    font-family: 'Sanchez', serif;
     font-size: 25px;
     border-bottom: 2px dashed black;
-/*
+    /*
     text-decoration: underline ;
     text-decoration-color: black ;
-*/
-    
+    */
+
 }
 h1, h2, h3, h4 {
-    border: 4px solid cadetblue;
-    outline: 2px dashed lightpink;
-    
+    text-align: right;
+    padding-left: 50px;
+    font-family: 'Sanchez', serif;
+    border: 4px solid #eeeeee;
+    /*    outline: 2px dashed lightpink;*/
+    /*    text-shadow: 2px 2px #be7e7f ;*/
+
 }
 hr {
-    border: 4px dashed cadetblue;
+    border: 4px dashed #b9b7b7;
 }
-#top {
-/*    text-align: center ;*/
+.top {
+    text-align: center ;
     font-size: 10px;
-    font-family: Helvetica;
+    font-family: 'Sanchez', serif;
 }
 ul {
-    list-style-image: url(bullet%20point.gif); 
+    list-style:circle; 
+    font-weight: bold;
 }
+p {
+    font-family: 'Sanchez', serif;
+    text-align: center;
+}
+
+
