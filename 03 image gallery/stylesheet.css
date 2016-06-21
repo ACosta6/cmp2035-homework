@@ -1,0 +1,59 @@
+body {
+    font-family: verdana;
+    color: darkblue;
+    font-size: 12px;
+    background-color: floralwhite;
+   
+}
+
+blockquote {
+    font-family: helvetica;
+    color: cadetblue;
+    font-size: 20px;
+    border: 4px solid lightpink;
+}
+
+a:link {
+    color: lightpink;
+    text-decoration: line-through;
+}
+a:hover {
+    color: deeppink;
+    font-weight: bold;
+}
+a:active {
+    color: coral;
+    font-weight: bold ;
+}
+a:visited {
+    color: aquamarine ;
+}
+ .table1 {
+    border: 4px solid cadetblue ;
+}
+.namework {
+    font-family: cursive;
+    font-size: 25px;
+    border-bottom: 2px dashed black;
+/*
+    text-decoration: underline ;
+    text-decoration-color: black ;
+*/
+    
+}
+h1 {
+    border: 4px solid cadetblue;
+    outline: 2px dashed lightpink;
+    
+}
+hr {
+    border: 4px dashed cadetblue;
+}
+#top {
+/*    text-align: center ;*/
+    font-size: 10px;
+    font-family: Helvetica;
+}
+ul {
+    list-style-image: url(bullet%20point.gif); 
+}
