@@ -2837,7 +2837,7 @@ h4 .star{
         -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=@percent)";filter:alpha(opacity=90);opacity:.9;background-color:#fff}
 
     .toc .spotlightmask{
-        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=@percent)";filter:alpha(opacity=33.3);opacity:.333;background-color:#000}
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha#f5eeee(Opacity=@percent)";filter:alpha(opacity=33.3);opacity:.333;background-color:#000}
 
     .spotlight{
         position:relative;z-index:999999999}
