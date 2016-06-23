@@ -26,17 +26,17 @@
 .titletext {
     /*                background-color: #dad7d7;*/
     position: static;
-/*    height: 100px;*/
+    /*    height: 100px;*/
     font-family: helvetica; font-size: 1.5em;
     margin-left:  100px;
-/*    z-index: -3;*/
+    /*    z-index: -3;*/
 }
 .navlinks {
     color: #ffffff;
     background-color: #ffffff;
     /*                padding: 8px;*/
     font-family: helvetica;
-    
+
 
 }
 div.navlinks > .nav > a.nav {
@@ -55,8 +55,10 @@ div.navlinks > .nav > a.nav {
 
 }
 body {
-    background-color:  #e6e7e8;
+    background-color: #e6e7e8;
     margin: 0px;
+    font-family: helvetica;
+
 }
 p{
     margin: 0px;
@@ -77,11 +79,11 @@ div.redblock{
     margin-bottom: 15px ;
     float: right;
     margin-left: 20px;
-   
+
 }
 .redblock{
-  float: right;
-  margin-left: 20px;
+    float: right;
+    margin-left: 20px;
 }
 
 div.blackblock{ 
@@ -91,12 +93,14 @@ div.blackblock{
     margin-bottom: 15px ;
     float: right; 
     margin-left: 20px;
-    
-   
+
+
 }
-h2.text{
+h2 {
     color: #d5602a;
- 
+/*    margin-bottom: 50px ;*/
+    margin-left: 40px;
+
 
 }
 .text{
@@ -105,15 +109,17 @@ h2.text{
     font-family: helvetica;
     max-width: 350;
     margin-left: 40px;
-    
+
 }
 p.text {
     font-size: 13px;
     line-height: 22px;
-    
+
 }
 div.blocks{
-/*    position: fixed;*/
+    /*    position: fixed;*/
+    
+    margin-right: 40px ;
 }
 
 div.##2row{
@@ -127,8 +133,8 @@ div.redblock1{
     float: right;
     clear: right;
     margin-left: 20px;
-   
-    
+
+
 }
 div.blackblock2{
     width: 150px;
@@ -139,7 +145,5 @@ div.blackblock2{
     float: right;
     clear: right;
     margin-left: 20px;
-    
-    
 }
 
