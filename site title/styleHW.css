@@ -1,0 +1,145 @@
+
+.supnav {
+    background-color: #6d6e71;
+    /*                padding: 20px;*/
+    height: 50px;
+    width: inherit;
+
+}  
+.links a {
+    font-family: sans-serif;
+    color: #ffffff;
+    margin: 20px;
+    /*float:right;*/
+    text-decoration: none;
+}
+.links {
+    color: #ffffff;
+    float: right;
+    width: 300px;
+    height: 40px;
+    /*    text-decoration: none;*/
+    float: right;
+
+
+}
+.titletext {
+    /*                background-color: #dad7d7;*/
+    position: static;
+/*    height: 100px;*/
+    font-family: helvetica; font-size: 1.5em;
+    margin-left:  100px;
+/*    z-index: -3;*/
+}
+.navlinks {
+    color: #ffffff;
+    background-color: #ffffff;
+    /*                padding: 8px;*/
+    font-family: helvetica;
+    
+
+}
+div.navlinks > .nav > a.nav {
+    color: #000000;
+    /*
+    position:relative;
+    bottom:10px;
+    */
+    /*    top: 10px;*/
+    font-family: helvetica;
+    font-weight: bolder;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+
+
+}
+body {
+    background-color:  #e6e7e8;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+p.links {
+    padding-top: 15px;
+
+}
+p.nav {
+    padding: 20px;
+    position:relative;
+    /*    top: 30px;*/
+}
+div.redblock{ 
+    width: 150px;
+    height: 150px;
+    background-color: #d5602a;
+    margin-bottom: 15px ;
+    float: right;
+    margin-left: 20px;
+   
+}
+.redblock{
+  float: right;
+  margin-left: 20px;
+}
+
+div.blackblock{ 
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+    margin-bottom: 15px ;
+    float: right; 
+    margin-left: 20px;
+    
+   
+}
+h2.text{
+    color: #d5602a;
+ 
+
+}
+.text{
+    color: #000000;
+    position: absolute;
+    font-family: helvetica;
+    max-width: 350;
+    margin-left: 40px;
+    
+}
+p.text {
+    font-size: 13px;
+    line-height: 22px;
+    
+}
+div.blocks{
+/*    position: fixed;*/
+}
+
+div.##2row{
+    clear: left;
+}
+div.redblock1{
+    width: 150px;
+    height: 150px;
+    background-color: #d5602a;
+    margin-bottom: 15px ;
+    float: right;
+    clear: right;
+    margin-left: 20px;
+   
+    
+}
+div.blackblock2{
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+    margin-bottom: 15px ;
+    position: static;
+    float: right;
+    clear: right;
+    margin-left: 20px;
+    
+    
+}
+
