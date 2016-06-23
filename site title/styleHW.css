@@ -28,7 +28,7 @@
     position: static;
     /*    height: 100px;*/
     font-family: helvetica; font-size: 1.5em;
-    margin-left:  100px;
+    margin-left:  40px;
     /*    z-index: -3;*/
 }
 .navlinks {
@@ -48,7 +48,7 @@ div.navlinks > .nav > a.nav {
     /*    top: 10px;*/
     font-family: helvetica;
     font-weight: bolder;
-    margin: 30px;
+    margin: 20px;
     text-decoration: none;
     font-size: 1.2em;
 
@@ -61,14 +61,16 @@ body {
 
 }
 p{
-    margin: 0px;
+    margin-left: 40px;
+/*    position: absolute;*/
 }
 p.links {
-    padding-top: 15px;
+    
+    margin-right: 40px
 
 }
 p.nav {
-    padding: 20px;
+    padding: 10px;
     position:relative;
     /*    top: 30px;*/
 }
@@ -105,15 +107,18 @@ h2 {
 }
 .text{
     color: #000000;
-    position: absolute;
     font-family: helvetica;
-    max-width: 350;
+    max-width: 400px;
     margin-left: 40px;
 
 }
 p.text {
     font-size: 13px;
     line-height: 22px;
+    margin-left: 40px;
+    max-width: 400px;
+    position: absolute;
+    
 
 }
 div.blocks{
@@ -145,5 +150,8 @@ div.blackblock2{
     float: right;
     clear: right;
     margin-left: 20px;
+}
+div.paragraphs{
+    max-width: 400px;
 }
 
